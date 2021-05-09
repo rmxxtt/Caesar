@@ -6,7 +6,7 @@ RS School NodeJS course
 [Цезаря](https://en.wikipedia.org/wiki/Caesar_cipher).
 
 
-####Как запустить приложение
+#### Как запустить приложение
 Скачать и установить [NodeJS](https://nodejs.org/en/download/).
 
 Скачать приложение используя **git** или архивом.
@@ -15,7 +15,7 @@ RS School NodeJS course
 
 Ввести в консоль команду **node main.mjs** с доступными параметрами
 
-####Доступные параметры
+#### Доступные параметры
 
 ```bash
 Usage: main [options] Доступные параметры
