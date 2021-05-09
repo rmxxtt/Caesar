@@ -1,7 +1,7 @@
 import colors from 'colors'
 import { Command } from 'commander/esm.mjs';
 
-const exitHandler = (message, isError = true, errorCode = 1) => {
+export const exitHandler = (message, isError = true, errorCode = 1) => {
     process.stderr.write(`${isError ? 'ERR '.red : ''}${message}`);
     process.exit(errorCode);
 }
@@ -41,6 +41,6 @@ program
 
 program.parse(process.argv);
 
-const options = program.opts();
+export const options = program.opts();
 
 module.exports = { options, exitHandler }

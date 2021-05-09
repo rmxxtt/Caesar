@@ -1,8 +1,8 @@
 import colors from 'colors'
 import { Transform, pipeline } from 'stream'
 import fs from 'fs'
-import { options, exitHandler } from './options'
-import { caesarCipher } from "./ceasar";
+import { options, exitHandler } from './options.mjs'
+import { caesarCipher } from "./ceasar.mjs";
 
 const readStream = () => {
     if (options.input) {

@@ -1,4 +1,4 @@
-const caesarCipher = (data) => {
+export const caesarCipher = (data) => {
     const char = {
         minUpper: 65,
         maxUpper: 90,
