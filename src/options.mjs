@@ -42,5 +42,3 @@ program
 program.parse(process.argv);
 
 export const options = program.opts();
-
-module.exports = { options, exitHandler }

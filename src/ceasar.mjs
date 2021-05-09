@@ -1,3 +1,5 @@
+import { options } from "./options.mjs";
+
 export const caesarCipher = (data) => {
     const char = {
         minUpper: 65,
@@ -22,5 +24,3 @@ export const caesarCipher = (data) => {
         }
     });
 }
-
-module.exports = { caesarCipher }
