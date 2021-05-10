@@ -42,3 +42,7 @@ program
 program.parse(process.argv);
 
 export const options = program.opts();
+
+if(options.action === 'decode'){
+    options.shift = options.shift * -1
+}

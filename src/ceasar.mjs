@@ -9,9 +9,6 @@ export const caesarCipher = (data) => {
     }
     const positionUpper = options.shift >= 0 ? char.minUpper : char.maxUpper;
     const positionLetter = options.shift >= 0 ? char.minLetter : char.maxLetter;
-    if(options.action === 'decode'){
-        options.shift = options.shift * -1
-    }
     return data.toString().replace(/[a-zA-Z]/g, char => {
         if (char === char.toUpperCase()) {
             return String.fromCharCode(
